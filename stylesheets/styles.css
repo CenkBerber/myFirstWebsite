@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    src: url('https://fonts.google.com/specimen/Red+Hat+Display:wght@500&display=swap');
+} 
+@font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    src: url('https://fonts.google.com/specimen/Red+Hat+Display:wght@700&display=swap');
+} 
+@font-face {
+    font-family: 'Red Hat Display', sans-serif;
+    src: url('https://fonts.google.com/specimen/Red+Hat+Display:wght@900&display=swap');
+}
+@font-face {
+    font-family: 'euclid';
+    src: url('../fonts/euclid.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'euclidbold';
+    src: url('../fonts/euclidbold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'productsans';
+    src: url('../fonts/productsans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'miuitime';
+    src: url('../fonts/miuitime.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* End of linking fonts*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+a.language:link {
+    color: #44baff;
+}
+a.language:visited {
+    color: #44baff;
+}
+a:link {
+    color: #44baff;
+    text-decoration: none;
+}
+a:visited {
+    color: #44baff;
+}
+a:hover {
+    color: rgb(0, 255, 157);
+    text-decoration: none;
+}
+body {
+    background-color: black;
+    background-image: url("../images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-section {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsla(189, 91%, 9%, 0.76);
+    border-radius: 0.8em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    box-shadow: 0px 6px 36px -4px rgba(0,0,0,0.95);
+    backdrop-filter: blur(5.5px);
+}
+.language {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    align-items: center;
+    font-size: 1.3em;
+    font-family: 'productsans';
+    font-weight: 500;
+}
+.header-box {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: 'euclidbold';
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 2.995em;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    transform: scale(1.005, 1.030);
+}
+.paragraph {
+    padding: 25px;
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-family: 'Red Hat Display';
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.55;
+    transform: scale(1, 1.045);
+}
+.contacts-header {
+    margin-top: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    font-family: 'productsans';
+    font-size: 1.30em;
+    font-weight: 400;
+}
+.contacts {
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'miuitime';
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: white;
+}
+.language-divider {
+    margin-top: 1em;
+    height: 0.25em;
+    width: 100%;
+    display: block;
+    background-color: #3dba55;
+}
+.thank-divider {
+    margin-top: 1em;
+    height: 0.25em;
+    width: 100%;
+    display: block;
+    background-color: rgba(206, 6, 56, 0.856);
+}
+.thanks-for-visiting {
+    margin-top: 1em;
+    margin-bottom: -1.5em;
+    font-family: 'productsans';
+    font-size: 1.2em;
+    color: white;
+}

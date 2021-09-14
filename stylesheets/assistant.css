@@ -1,0 +1,94 @@
+.assistant-container {
+	margin: auto;
+	padding: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	height: 1px;
+	position: relative;
+	display: block;
+	max-width: 25rem;
+	}
+.blue {
+	display: table-cell;
+	background-color: #4885ed;
+	border-radius: 12px 0px 0px 12px;
+	width: 25%;
+	height: 4px;
+	box-shadow: 0px -10px 50px 15px #4885ed;
+	position: relative;
+	animation-name: animblue;
+	animation-duration: 1.65s;
+	animation-iteration-count: infinite;
+	}
+.red {
+	display: table-cell;
+	background-color: #db3236;
+	width: 25%;
+	height: 4px;
+	box-shadow: 0px -2px 50px 15px #db3236;
+	position: relative;
+	animation-name: animred;
+	animation-duration: 0.9s;
+	animation-iteration-count: infinite;
+	}
+.yellow {
+	display: table-cell;
+	background-color: #f4c20d;
+	width: 25%;
+	box-shadow: 0px -2px 50px 15px #f4c20d;
+	position: relative;
+	height: 4px;
+	animation-name: animyellow;
+	animation-duration: 2.2s;
+	animation-iteration-count: infinite;
+	}
+.green {
+	display: table-cell;
+	background-color: #3cba54;
+	border-radius: 0px 12px 12px 0px;
+	width: 25%;
+	box-shadow: 10px -2px 50px 15px #3cba54;
+	position: relative;
+	height: 4px;
+	animation-name: animgreen;
+	animation-duration: 1.4s;
+	animation-iteration-count: infinite;
+	}
+.placeholder{
+	display: table-cell;
+	background-color: transparent;
+	border-radius: 0px 12px 12px 0px;
+	width: 0px;
+	height: 0px;
+	}
+
+/*ANIMASYONLAR*/ /*ANIMATIONS*/
+
+@keyframes animblue {
+	0%		{left: 0px; top: 0px; width: 150px; right: 0px;}
+	25%		{left: 0px; top: 0px; width: 250px; right: 0px;}
+	50%		{left: 0px; top: 0px; width: 350px; right: 0px;}
+	75%		{left: 0px; top: 0px; width: 220px; right: 0px;}
+	100%	{left: 0px; top: 0px; width: 150px; right: 0px;}
+}
+@keyframes animred {
+	0%		{left: 0px; top: 0px; width: 250px; right: 0px;}
+	25%		{left: 0px; top: 0px; width: 410px; right: 0px;}
+	50%		{left: 0px; top: 0px; width: 280px; right: 0px;}
+	75%		{left: 0px; top: 0px; width: 320px; right: 0px;}
+	100%	{left: 0px; top: 0px; width: 250px; right: 0px;}
+}
+@keyframes animyellow {
+	0%		{left: 0px; top: 0px; width: 150px; right: 0px;}
+	25%		{left: 0px; top: 0px; width: 300px; right: 0px;}
+	50%		{left: 0px; top: 0px; width: 220px; right: 0px;}
+	75%		{left: 0px; top: 0px; width: 450px; right: 0px;}
+	100%	{left: 0px; top: 0px; width: 150px; right: 0px;}
+}
+@keyframes animgreen {
+	0%		{left: 0px; top: 0px; width: 200px; right: 0px;}
+	25%		{left: 0px; top: 0px; width: 250px; right: 0px;}
+	50%		{left: 0px; top: 0px; width: 300px; right: 0px;}
+	75%		{left: 0px; top: 0px; width: 200px; right: 0px;}
+	100%	{left: 0px; top: 0px; width: 200px; right: 0px;}
+}
